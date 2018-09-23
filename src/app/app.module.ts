@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
+import { routing } from './app.router';
 import { AppComponent } from './app.component';
 import { NavigatonComponent } from './navigaton/navigaton.component';
 import { FooterComponent } from './footer/footer.component';
@@ -28,7 +28,7 @@ import { GearComponent } from './gear/gear.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
